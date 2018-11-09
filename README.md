@@ -1,2 +1,2 @@
 # MobileProjects
-Mobile projects and POc's
+Mobile application sample projects and exercises
