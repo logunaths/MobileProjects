@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="FlickrImageLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oJF-g1-Ueu">
+                        <rect key="frame" x="2.5" y="0.0" width="93" height="125"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t17-8P-w5I">
+                                <rect key="frame" x="0.0" y="0.5" width="93" height="97.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.65000000000000002" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dHw-wf-2KE">
+                                <rect key="frame" x="0.0" y="98" width="93" height="26.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.81876627607499997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t17-8P-w5I" firstAttribute="height" secondItem="oJF-g1-Ueu" secondAttribute="height" multiplier="0.78" id="5ol-mV-7v1"/>
+                            <constraint firstItem="dHw-wf-2KE" firstAttribute="top" secondItem="t17-8P-w5I" secondAttribute="bottom" id="Gul-ce-oRR"/>
+                            <constraint firstItem="t17-8P-w5I" firstAttribute="width" secondItem="oJF-g1-Ueu" secondAttribute="width" id="OpN-36-OTM"/>
+                            <constraint firstItem="dHw-wf-2KE" firstAttribute="height" secondItem="oJF-g1-Ueu" secondAttribute="height" multiplier="0.21" id="gXZ-2i-2bo"/>
+                            <constraint firstItem="t17-8P-w5I" firstAttribute="top" secondItem="oJF-g1-Ueu" secondAttribute="centerY" multiplier="0.01" id="hd0-vp-svq"/>
+                            <constraint firstItem="t17-8P-w5I" firstAttribute="centerX" secondItem="oJF-g1-Ueu" secondAttribute="centerX" id="lZF-af-No3"/>
+                            <constraint firstItem="dHw-wf-2KE" firstAttribute="width" secondItem="oJF-g1-Ueu" secondAttribute="width" id="qVT-vY-3cR"/>
+                            <constraint firstItem="dHw-wf-2KE" firstAttribute="centerX" secondItem="t17-8P-w5I" secondAttribute="centerX" id="xUx-Fq-i4m"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oJF-g1-Ueu" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="0aL-xY-f16"/>
+                <constraint firstItem="oJF-g1-Ueu" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Vil-bu-9kS"/>
+                <constraint firstItem="oJF-g1-Ueu" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.95" id="bco-G2-4Bx"/>
+                <constraint firstItem="oJF-g1-Ueu" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="tNU-50-avt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="98" height="132"/>
+            <connections>
+                <outlet property="baseView" destination="oJF-g1-Ueu" id="3F0-8z-VkQ"/>
+                <outlet property="imageTitle" destination="dHw-wf-2KE" id="mEK-tJ-mds"/>
+                <outlet property="imageView" destination="t17-8P-w5I" id="epY-lS-A2v"/>
+            </connections>
+            <point key="canvasLocation" x="-112" y="40.929535232383813"/>
+        </collectionViewCell>
+    </objects>
+</document>

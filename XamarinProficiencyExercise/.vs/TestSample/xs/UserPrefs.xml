@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{60C48A6A-35FB-4313-9013-F5939239C627}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewControllers/BrowseViewController.cs">
+    <Files>
+      <File FileName="iOS/ViewControllers/BrowseViewController.cs" Line="21" Column="32" />
+      <File FileName="TestSample/ViewModels/BaseViewModel.cs" Line="15" Column="35" />
+      <File FileName="TestSample/ViewModels/ItemsViewModel.cs" Line="32" Column="52" />
+      <File FileName="TestSample/Models/Item.cs" Line="5" Column="18" />
+      <File FileName="TestSample/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
+      <File FileName="TestSample/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="TestSample/Services/IDataStore.cs" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../../../../Downloads/Weather/WeatherApp/Core.cs" line="12" offsetX="937" offsetY="220" expression="queryString" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.TestSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B8C735CA-2490-466A-B077-0B7D8230A180" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+</Properties>
