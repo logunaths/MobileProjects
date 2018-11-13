@@ -7,3 +7,4 @@ App loads all data in async way
 App implements pagination
 App has ability to load without blocking the user interactions
 
+Xamarin Proficieny execrise - A Sample app for add/removing new indices in a Xamarin Listview
